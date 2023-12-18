@@ -63,7 +63,7 @@ const Guide = () => {
 
       <Typography
         variant="h3"
-        sx={{ fontSize: "35px", fontWeight: "bold", color: "#000339", my: 3 }}
+        sx={{ fontSize: "35px", fontWeight: "bold", color: "#000339", my: 3, textAlign: "center", }}
       >
         Bagaimana cara menggunakannya?
       </Typography>
