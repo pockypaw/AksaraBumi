@@ -48,15 +48,25 @@ export const Navbar = () => {
     >
       <List>
        
-            <ListItem key={text} disablePadding>
+            <ListItem disablePadding>
               <ListItemButton>
                 <ListItemIcon>
                   <HomeIcon /> <ListItemText primary={"Home"} />
+                  </ListItemIcon>
+                  <ListItemIcon>
+                  <FeaturedPlayListIcon /> <ListItemText primary={"How To"} />
+                  </ListItemIcon>
+                  <ListItemIcon>
+                  <MiscellaneousServicesIcon /> <ListItemText primary={"Tutor AI"} />
+                  </ListItemIcon>
+                  <ListItemIcon>
+                  <ContactsIcon /> <ListItemText primary={"Contact"} />
+                  </ListItemIcon>
 {/*                   <FeaturedPlayListIcon />
                   <MiscellaneousServicesIcon />
                   <ListAltIcon />
                   <ContactsIcon /> */}
-                </ListItemIcon>
+                
                
               </ListItemButton>
             </ListItem>
