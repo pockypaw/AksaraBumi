@@ -9,7 +9,7 @@ export const properties = [
     name: "Maira",
     specialization: "Aku ahli dalam bahasa Sunda",
     features: "Mulai Obrolan",
-    link : "/chatbot"
+    link : "https://aksara-chat-ai.vercel.app/chatbot"
   },
 
   {
@@ -18,6 +18,7 @@ export const properties = [
     name: "Rina",
     specialization: "Aku ahli dalam berbahasa Batak",
     features: "Coming Soon",
+    link : "#"
   },
 
   {
@@ -26,5 +27,6 @@ export const properties = [
     name: "Eveyln",
     specialization: "Aku ahli dalam bahasa Jawa",
     features: "Coming Soon",
+    link : "#"
   },
 ];
