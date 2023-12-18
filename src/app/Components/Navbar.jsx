@@ -56,6 +56,7 @@ export const Navbar = () => {
     <ListItemText primary={"Home"} />
   </ListItemButton>
 </ListItem>
+         <Link href="#second-section" scroll={true}>
 <ListItem disablePadding>
   <ListItemButton>
     <ListItemIcon>
@@ -63,7 +64,8 @@ export const Navbar = () => {
     </ListItemIcon>
     <ListItemText primary={"How To"} />
   </ListItemButton>
-</ListItem>
+</ListItem> <Link href="#second-section" scroll={true}>
+  <Link href="#third-section" scroll={true}>
 <ListItem disablePadding>
   <ListItemButton>
     <ListItemIcon>
@@ -71,7 +73,8 @@ export const Navbar = () => {
     </ListItemIcon>
     <ListItemText primary={"Tutor AI"} />
   </ListItemButton>
-</ListItem>
+</ListItem></Link>
+  <Link href="#fourth-section" scroll={true}>
 <ListItem disablePadding>
   <ListItemButton>
     <ListItemIcon>
@@ -79,7 +82,7 @@ export const Navbar = () => {
     </ListItemIcon>
     <ListItemText primary={"Contact"} />
   </ListItemButton>
-</ListItem>
+</ListItem></Link>
 
      
       </List>
@@ -163,11 +166,9 @@ export const Navbar = () => {
             <NavLink variant="body2">How To</NavLink>
           </Link>
           <Link href="#third-section" scroll={true}>
-            {" "}
             <NavLink variant="body2">Tutor AI</NavLink>
           </Link>
           <Link href="#fourth-section" scroll={true}>
-            {" "}
             <NavLink variant="body2">Contact</NavLink>
           </Link>
         </NavbarLinksBox>
