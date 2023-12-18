@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dokumentasi Platform AI Tutor - Aksara Bumi
 
-## Getting Started
+## Pendahuluan
+Platform AI Tutor Aksara Bumi adalah sebuah inisiatif yang bertujuan untuk mempertahankan, mengembangkan, dan mengajarkan bahasa daerah melalui pemanfaatan teknologi kecerdasan buatan (AI). Dengan menggunakan teknologi modern seperti AI, Next.js, dan Node.js, platform ini memungkinkan pengguna untuk mempelajari dan merawat kekayaan budaya bahasa daerah yang sering terabaikan.
 
-First, run the development server:
+## Fitur Utama
+### Pembelajaran Bahasa Daerah
+Platform ini menyediakan berbagai materi pembelajaran bahasa daerah yang dirancang secara interaktif dan menarik, membantu pengguna dalam memahami dan memperkaya kosakata serta tata bahasa dari bahasa yang dipelajari.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Teknologi Kecerdasan Buatan (AI)
+Dengan integrasi teknologi AI, platform ini memberikan bantuan yang personal dalam mempelajari bahasa daerah, seperti penerjemahan, latihan ucapan, serta rekomendasi konten pembelajaran yang disesuaikan.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Konservasi Budaya
+Selain sebagai sarana pembelajaran, platform ini berfungsi sebagai jendela untuk menjaga warisan budaya. Melalui pengajaran bahasa daerah, pengguna dapat merawat dan melestarikan kekayaan budaya yang mungkin terancam hilang.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Teknologi yang Digunakan
+Platform AI Tutor Aksara Bumi dibangun dengan teknologi modern, termasuk:
+- **Next.js**: Framework React untuk pengembangan web yang responsif dan ramah pengguna.
+- **Node.js**: Runtime lingkungan JavaScript yang digunakan untuk mengembangkan aplikasi server-side.
+- **Teknologi AI**: Penggunaan teknologi kecerdasan buatan untuk penerjemahan, rekomendasi konten, dan personalisasi pembelajaran.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Kontribusi
+Kami menyambut kontribusi dari komunitas untuk memperluas fitur, meningkatkan kualitas pembelajaran, serta memperkaya database bahasa daerah yang disediakan oleh platform ini. Silakan kunjungi repositori GitHub kami untuk informasi lebih lanjut tentang cara berkontribusi.
 
-## Learn More
+Terima kasih telah menjadi bagian dari upaya kami untuk memelihara dan memperkenalkan kekayaan budaya melalui pembelajaran bahasa daerah.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
