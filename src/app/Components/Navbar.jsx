@@ -64,7 +64,7 @@ export const Navbar = () => {
     </ListItemIcon>
     <ListItemText primary={"How To"} />
   </ListItemButton>
-</ListItem> <Link href="#second-section" scroll={true}>
+</ListItem> </Link>
   <Link href="#third-section" scroll={true}>
 <ListItem disablePadding>
   <ListItemButton>
