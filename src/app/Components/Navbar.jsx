@@ -49,27 +49,38 @@ export const Navbar = () => {
       <List>
        
             <ListItem disablePadding>
-              <ListItemButton>
-                <ListItemIcon>
-                  <HomeIcon /> <ListItemText primary={"Home"} />
-                  </ListItemIcon>
-                  <ListItemIcon>
-                  <FeaturedPlayListIcon /> <ListItemText primary={"How To"} />
-                  </ListItemIcon>
-                  <ListItemIcon>
-                  <MiscellaneousServicesIcon /> <ListItemText primary={"Tutor AI"} />
-                  </ListItemIcon>
-                  <ListItemIcon>
-                  <ContactsIcon /> <ListItemText primary={"Contact"} />
-                  </ListItemIcon>
-{/*                   <FeaturedPlayListIcon />
-                  <MiscellaneousServicesIcon />
-                  <ListAltIcon />
-                  <ContactsIcon /> */}
-                
-               
-              </ListItemButton>
-            </ListItem>
+  <ListItemButton>
+    <ListItemIcon>
+      <HomeIcon />
+    </ListItemIcon>
+    <ListItemText primary={"Home"} />
+  </ListItemButton>
+</ListItem>
+<ListItem disablePadding>
+  <ListItemButton>
+    <ListItemIcon>
+      <FeaturedPlayListIcon />
+    </ListItemIcon>
+    <ListItemText primary={"How To"} />
+  </ListItemButton>
+</ListItem>
+<ListItem disablePadding>
+  <ListItemButton>
+    <ListItemIcon>
+      <MiscellaneousServicesIcon />
+    </ListItemIcon>
+    <ListItemText primary={"Tutor AI"} />
+  </ListItemButton>
+</ListItem>
+<ListItem disablePadding>
+  <ListItemButton>
+    <ListItemIcon>
+      <ContactsIcon />
+    </ListItemIcon>
+    <ListItemText primary={"Contact"} />
+  </ListItemButton>
+</ListItem>
+
      
       </List>
     </Box>
