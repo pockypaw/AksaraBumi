@@ -47,22 +47,20 @@ export const Navbar = () => {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {["Home", "Features", "Services", "Listed", "Contact"].map(
-          (text, index) => (
+       
             <ListItem key={text} disablePadding>
               <ListItemButton>
                 <ListItemIcon>
-                  {index === 0 && <HomeIcon />}
-                  {index === 1 && <FeaturedPlayListIcon />}
-                  {index === 2 && <MiscellaneousServicesIcon />}
-                  {index === 3 && <ListAltIcon />}
-                  {index === 4 && <ContactsIcon />}
+                  <HomeIcon /> <ListItemText primary={"Home"} />
+{/*                   <FeaturedPlayListIcon />
+                  <MiscellaneousServicesIcon />
+                  <ListAltIcon />
+                  <ContactsIcon /> */}
                 </ListItemIcon>
-                <ListItemText primary={text} />
+               
               </ListItemButton>
             </ListItem>
-          )
-        )}
+     
       </List>
     </Box>
   );
