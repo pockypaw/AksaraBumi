@@ -6,10 +6,8 @@ import type { Metadata } from 'next'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'dicoding:email',
-  openGraph: {
-    title: 'ardridhz@gmail.com',
-  },
+title: 'dicoding:email',
+  content: 'ardridhz@gmail.com'
 }
 
 export default function RootLayout({ children }) {
